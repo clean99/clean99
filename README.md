@@ -6,7 +6,7 @@ I'm KohHom(许峰)⛰️,
 - 🌱 I’m currently learning sicpjs
 - 💬 Ask me about anything
 - 📫 How to reach me: xff9924@gmail.com
-- ⚡ Fun fact: ~~I eat OMAD(One Meal a Day) as a VEGAN🥬~~ No more because I want to increase my weight lol
+- ⚡ Fun fact: ~~I eat OMAD(One Meal a Day) as a VEGAN🥬~~ No more because I want to gain weight lol
 - ![](https://komarev.com/ghpvc/?username=clean99)
 
 
