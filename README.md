@@ -2,7 +2,7 @@
 
 I'm KohHom(许峰)⛰️,
 
-- 🔭 I’m currently working on shopee
+- 🔭 I’m currently working on TikTok
 - 🌱 I’m currently learning sicpjs
 - 💬 Ask me about anything
 - 📫 How to reach me: xff9924@gmail.com
