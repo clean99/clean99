@@ -10,6 +10,6 @@ I'm KohHom(许峰)⛰️,
 - ![](https://komarev.com/ghpvc/?username=clean99)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=clean99&exclude_repo=sicp,clean99.github.io)](https://github.com/anuraghazra/github-readme-stats)
-
 <img src="https://github-readme-stats.vercel.app/api?username=clean99&show_icons=true&hide_title=true&hide=contribs" />
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=clean99&exclude_repo=sicp,clean99.github.io)](https://github.com/anuraghazra/github-readme-stats)
