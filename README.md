@@ -2,10 +2,10 @@
 
 I'm KohHom(许峰)⛰️,
 
-- 🔭 I’m currently working on TikTok
+- 🔭 I’m currently working at TikTok
 - 🌱 I’m currently learning sicpjs
 - 💬 Ask me about anything
-- 📫 How to reach me: xff9924@gmail.com
+- 📫 How to reach me: xff9924@gmail.com(Open for any remote/overseas opportunities(especially open source))
 - ⚡ Fun fact: ~~I eat OMAD(One Meal a Day) as a VEGAN🥬~~ No more because I want to gain weight lol
 - ![](https://komarev.com/ghpvc/?username=clean99)
 
