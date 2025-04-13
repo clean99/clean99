@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm KohHom(许峰)⛰️,
+I'm Clean,
 
 - 🔭 I’m currently working at TikTok
 - 🌱 I’m currently learning sicpjs
