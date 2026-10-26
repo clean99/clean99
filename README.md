@@ -4,12 +4,12 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 
 **Building**
 
-- [delivery-verifier](https://github.com/clean99/delivery-verifier): `dv prove` checks that a regression test fails without the fix and passes with it, each run in its own Git worktree. [v0.1.0](https://github.com/clean99/delivery-verifier/releases/tag/v0.1.0)
+- [delivery-verifier](https://github.com/clean99/delivery-verifier): `dv prove` checks regression tests against old and new commits in separate Git worktrees, now with Vitest support. [v0.2.0](https://github.com/clean99/delivery-verifier/releases/tag/v0.2.0)
 - [OwnContext](https://github.com/clean99/owncontext): self-hosted personal context for AI clients over MCP (preview)
 
 **Merged upstream**
 
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged): decode tool-call arguments for Anthropic and the AI SDK; keep `strict` on JSON-schema response formats
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged): decode tool-call arguments for Anthropic and the AI SDK; keep `strict` on JSON-schema response formats; preserve Anthropic `extra_body` in the Python client ([#17270](https://github.com/Arize-ai/phoenix/pull/17270))
 - [Mantine](https://github.com/mantinedev/mantine/pull/9321): keep zero alpha when converting `hsla` colors
 - [assistant-ui](https://github.com/assistant-ui/assistant-ui/pull/10111): keep uploaded image filenames across runtime adapters
 - [knip](https://github.com/webpro-nl/knip/pull/2212): Lingui plugin, so Lingui config files and their dependencies are no longer reported as unused
