@@ -12,6 +12,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged): decode tool-call arguments for Anthropic and the AI SDK; keep `strict` on JSON-schema response formats
 - [Mantine](https://github.com/mantinedev/mantine/pull/9321): keep zero alpha when converting `hsla` colors
 - [assistant-ui](https://github.com/assistant-ui/assistant-ui/pull/10111): keep uploaded image filenames across runtime adapters
+- [knip](https://github.com/webpro-nl/knip/pull/2212): Lingui plugin, so Lingui config files and their dependencies are no longer reported as unused
 - Earlier: [Ant Design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (test suite migration to Testing Library), [screenshot-to-code](https://github.com/abi/screenshot-to-code/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (stop button, live code editing, image-comparison debugging), [LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS/pull/1614)
 
 **Writing**: [clean99.github.io](https://clean99.github.io)
