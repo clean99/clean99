@@ -4,7 +4,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 
 **Building**
 
-- [delivery-verifier](https://github.com/clean99/delivery-verifier): `dv prove` checks regression tests against old and new commits in separate Git worktrees, with Vitest support and a GitHub Action for pull requests. [v0.3.0](https://github.com/clean99/delivery-verifier/releases/tag/v0.3.0)
+- [delivery-verifier](https://github.com/clean99/delivery-verifier): `dv prove` checks regression tests against old and new commits in separate Git worktrees, with Vitest support and a GitHub Action for pull requests. [v0.3.1](https://github.com/clean99/delivery-verifier/releases/tag/v0.3.1), proven on a real merged fix in [Arize Phoenix](https://github.com/Arize-ai/phoenix/pull/17270)
 - [OwnContext](https://github.com/clean99/owncontext): self-hosted personal context for AI clients over MCP (preview)
 
 **Merged upstream**
