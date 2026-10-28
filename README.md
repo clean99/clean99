@@ -13,8 +13,10 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [Mantine](https://github.com/mantinedev/mantine/pull/9321): keep zero alpha when converting `hsla` colors
 - [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged): keep uploaded image filenames across runtime adapters, keep files in AG-UI tool results, carry `providerMetadata` through AI SDK message conversion, and keep LangChain image filenames
 - [React Hook Form](https://github.com/react-hook-form/react-hook-form/pull/13950): check checkbox options whose value is an empty string
-- [knip](https://github.com/webpro-nl/knip/pull/2212): Lingui plugin, so Lingui config files and their dependencies are no longer reported as unused
+- [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged): Lingui plugin, and CSpell settings read from `package.json`, so their config files and dictionary packages are no longer reported as unused
 - [Starlight](https://github.com/withastro/starlight/pull/4299): autogenerate the sidebar from the docs root (`directory: ''`) instead of returning an empty group
+- [Vercel AI SDK](https://github.com/vercel/ai/pull/24037): decode base64 and data-URL documents before sending them to Cohere (released in `ai` 7.0.155)
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pull/6840): keep images and other message fields when long prompts are compressed
 - Earlier: [Ant Design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (test suite migration to Testing Library), [screenshot-to-code](https://github.com/abi/screenshot-to-code/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (stop button, live code editing, image-comparison debugging), [LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS/pull/1614)
 
 **Writing**: [clean99.github.io](https://clean99.github.io)
