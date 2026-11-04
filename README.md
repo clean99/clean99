@@ -6,7 +6,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 
 **Building**
 
-- [delivery-verifier](https://github.com/clean99/delivery-verifier): `dv prove` checks regression tests against old and new commits in separate Git worktrees, with pytest, unittest, Node and Vitest 3.2/4.1 support and a GitHub Action for pull requests. [v0.4.0](https://github.com/clean99/delivery-verifier/releases/tag/v0.4.0), proven on a real merged fix in [Arize Phoenix](https://github.com/Arize-ai/phoenix/pull/17270)
+- [delivery-verifier](https://github.com/clean99/delivery-verifier): `dv prove` checks regression tests against old and new commits in separate Git worktrees, with pytest, unittest, Node and Vitest 3.2/4.1 support and a GitHub Action for pull requests. [v0.4.0](https://github.com/clean99/delivery-verifier/releases/tag/v0.4.0), proven on a real merged fix in [Arize Phoenix](https://github.com/Arize-ai/phoenix/pull/17270), listed in [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing/pull/103)
 - [OwnContext](https://github.com/clean99/owncontext): self-hosted personal context for AI clients over MCP (preview)
 
 **Merged upstream: AI agent UIs and SDKs**
@@ -22,11 +22,12 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14): new Lingui, kysely-codegen and PurgeCSS plugins; Babel and Stylelint configs are followed through `extends`; Babel, CSpell, SVGR, Relay, SWC, Storybook, Eleventy and npm-package-json-lint plugins read every config location and format their tools support
 - [React Hook Form](https://github.com/react-hook-form/react-hook-form/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (4) and [resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (3): `trigger` keeps nested field-array root errors and touches nested fields with `shouldTouch`; a Controller reads the current `shouldUnregister` on unmount; empty-string checkbox options; the io-ts resolver honours `raw`; TypeBox and fluentvalidation-ts error paths
 - [TanStack Virtual](https://github.com/TanStack/virtual/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (3): Svelte and Vue adapters keep options and callbacks across updates and detach observers when the scroll element goes away
-- [Rollup](https://github.com/rollup/rollup/pull/6620): keep line terminators in module ids
+- [Rollup](https://github.com/rollup/rollup/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (2): keep line terminators in module ids; debug ID comments count toward chunk hashes, so a cached chunk is never served under a new build's file name
 - [SvelteKit](https://github.com/sveltejs/kit/pull/17590): use the UTF-8 byte length when reading inline assets
 - [Solid](https://github.com/solidjs/solid/pull/4266): sync array length when reconciling server-side stores
 - [Lexical](https://github.com/meta/lexical/pull/9464): round-trip link titles and destinations through Markdown
-- [Mantine](https://github.com/mantinedev/mantine/pull/9321), [UnoCSS](https://github.com/unocss/unocss/pull/5400), [Starlight](https://github.com/withastro/starlight/pull/4299): zero alpha in `hsla` colors, preset-wind4 containment utilities, sidebar autogeneration from the docs root
+- [Mantine](https://github.com/mantinedev/mantine/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (4): color functions keep zero alpha in `hsla` and parse four-digit `#RGBA`; leading-decimal values such as `.5rem` stay CSS lengths instead of theme sizes; `use-hash` keeps its state in sync with the URL
+- [UnoCSS](https://github.com/unocss/unocss/pull/5400), [Starlight](https://github.com/withastro/starlight/pull/4299): preset-wind4 containment utilities, sidebar autogeneration from the docs root
 - Earlier: [Ant Design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (test suite migration to Testing Library), [screenshot-to-code](https://github.com/abi/screenshot-to-code/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (stop button, live code editing, image-comparison debugging), [LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS/pull/1614)
 
 **Writing**: [clean99.github.io](https://clean99.github.io)
