@@ -27,7 +27,8 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [Solid](https://github.com/solidjs/solid/pull/4266): sync array length when reconciling server-side stores
 - [Lexical](https://github.com/meta/lexical/pull/9464): round-trip link titles and destinations through Markdown
 - [Mantine](https://github.com/mantinedev/mantine/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (4): color functions keep zero alpha in `hsla` and parse four-digit `#RGBA`; leading-decimal values such as `.5rem` stay CSS lengths instead of theme sizes; `use-hash` keeps its state in sync with the URL
-- [UnoCSS](https://github.com/unocss/unocss/pull/5400), [Starlight](https://github.com/withastro/starlight/pull/4299): preset-wind4 containment utilities, sidebar autogeneration from the docs root
+- [Starlight](https://github.com/withastro/starlight/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (2): the sidebar autogenerates from the docs root; localized sites keep a directory named `constructor` in fallback pages, the language picker and alternate links
+- [UnoCSS](https://github.com/unocss/unocss/pull/5400): preset-wind4 containment utilities
 - Earlier: [Ant Design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (test suite migration to Testing Library), [screenshot-to-code](https://github.com/abi/screenshot-to-code/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (stop button, live code editing, image-comparison debugging), [LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS/pull/1614)
 
 **Writing**: [clean99.github.io](https://clean99.github.io)
