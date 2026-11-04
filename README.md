@@ -15,7 +15,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (9): LLM tracing and evals clients decode Anthropic and AI SDK tool inputs, keep `strict` response schemas, `extra_body`, Anthropic system instructions, fields beside `anyOf` schemas, evaluator `metadata`, failed task span status and JSON-string span filters; the dataset view refreshes its example count
 - [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (7): `@effect/ai` replays Anthropic web fetch and code execution results as server tool results, accepts web fetch documents without citations and sends OpenAI shell tool results in the expected shape; `Stream.groupAdjacentBy` emits buffered groups before an upstream failure; `DateTime` rounding keeps the offset inside a repeated DST hour; `Iterable.unfold` and `filterMapWhile` stay exhausted
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6): agents keep images after prompt-based tool calls and reject failed Responses API streams; compressed chat history keeps images and provider formatting; KoboldCPP agents honour max response tokens; GitHub re-sync encodes file paths
-- [Vercel AI SDK](https://github.com/vercel/ai/pull/24037): decode base64 and data-URL documents before sending them to Cohere
+- [Vercel AI SDK](https://github.com/vercel/ai/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (3): provider adapters accept what providers actually send: Cohere documents as base64 or data URLs and `null` tool arguments while streaming, inline text files in OpenAI-compatible requests
 
 **Merged upstream: frontend and tooling**
 
