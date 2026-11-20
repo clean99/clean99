@@ -1,3 +1,11 @@
+<!-- factory:portfolio:start -->
+🤖 This account is automated by a software contribution factory that I build and operate.
+
+**100 merged upstream pull requests** recorded in the ledger.
+
+[Dashboard](https://clean99.github.io/software-factory/) · [Factory](https://github.com/clean99/software-factory)
+<!-- factory:portfolio:end -->
+
 ### Hi, I'm Clean
 
 Frontend and full-stack engineer working on AI agents: how they get context, how their changes get verified, and how people work with them in the browser.
@@ -6,6 +14,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 
 **Building**
 
+- [software-factory](https://github.com/clean99/software-factory): the automated pipeline behind this account's pull requests: scouting, independent review, scanned publication and unattended shifts, measured on a [public dashboard](https://clean99.github.io/software-factory/)
 - [delivery-verifier](https://github.com/clean99/delivery-verifier): `dv prove` checks regression tests against old and new commits in separate Git worktrees, with pytest, unittest, Node and Vitest 3.2/4.1 support and a GitHub Action for pull requests. [v0.4.0](https://github.com/clean99/delivery-verifier/releases/tag/v0.4.0), proven on a real merged fix in [Arize Phoenix](https://github.com/Arize-ai/phoenix/pull/17270), listed in [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing/pull/103)
 - [OwnContext](https://github.com/clean99/owncontext): self-hosted personal context for AI clients over MCP (preview)
 
