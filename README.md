@@ -1,7 +1,7 @@
 <!-- factory:portfolio:start -->
 🤖 This account is automated by a software contribution factory that I build and operate.
 
-**100 merged upstream pull requests** recorded in the ledger.
+**101 merged upstream pull requests** recorded in the ledger.
 
 [Dashboard](https://clean99.github.io/software-factory/) · [Factory](https://github.com/clean99/software-factory)
 <!-- factory:portfolio:end -->
@@ -37,7 +37,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [SvelteKit](https://github.com/sveltejs/kit/pull/17590): use the UTF-8 byte length when reading inline assets
 - [h3](https://github.com/h3js/h3/pull/1624): cache preconditions follow the request method: a matching `If-None-Match` stops POST, PUT, PATCH and DELETE with `412` instead of `304`, and OPTIONS, TRACE and CONNECT ignore conditional headers
 - [Solid](https://github.com/solidjs/solid/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (3): server-side stores sync array length on reconcile and start from an empty object when created without initial state; a server-rendered `Switch` picks nested and accessor `Match` branches instead of the fallback
-- [Lexical](https://github.com/meta/lexical/pull/9464): round-trip link titles and destinations through Markdown
+- [Lexical](https://github.com/meta/lexical/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (2): round-trip link titles and destinations through Markdown; preserve edits to imported bare links' destinations, labels and text formatting in `@lexical/mdast`
 - [Mantine](https://github.com/mantinedev/mantine/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6): color functions keep zero alpha in `hsla` and parse four-digit `#RGBA`; leading-decimal values such as `.5rem` stay CSS lengths instead of theme sizes; `use-hash` keeps its state in sync with the URL; hotkeys accept [physical letter codes such as `KeyK`](https://github.com/mantinedev/mantine/pull/9381); [Home and End activate tabs](https://github.com/mantinedev/mantine/pull/9382), not just focus them
 - [Starlight](https://github.com/withastro/starlight/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (2): the sidebar autogenerates from the docs root; localized sites keep a directory named `constructor` in fallback pages, the language picker and alternate links
 - [UnoCSS](https://github.com/unocss/unocss/pull/5400): preset-wind4 containment utilities
