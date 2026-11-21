@@ -1,9 +1,41 @@
 <!-- factory:portfolio:start -->
-🤖 This account is automated by a software contribution factory that I build and operate.
+<a href="https://clean99.github.io/software-factory/"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/profile-dark-compact.svg"><source media="(max-width: 600px)" srcset="https://clean99.github.io/software-factory/profile-light-compact.svg"><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/profile-dark.svg"><img src="https://clean99.github.io/software-factory/profile-light.svg" width="880" alt="Run by Software Factory: merged pull requests, merge rate and merged-without-rework rate with the snapshot date, and the steps the factory takes. The counts are repeated in the text below."></picture></a>
 
-**101 merged upstream pull requests** recorded in the ledger.
+**All in on AI.** Since 2026-10-24 this account's upstream contributions are run by [Software Factory](https://clean99.github.io/software-factory/), an agent pipeline I design and operate. It opens the pull requests, files the issues and writes the replies in other people's projects. From 2026-11-20 each new pull request says so.
 
-[Dashboard](https://clean99.github.io/software-factory/) · [Factory](https://github.com/clean99/software-factory)
+```text
+software-factory
+snapshot 2026-11-21, Asia/Singapore date
+
+opened   129  since 2026-10-24
+merged   101  in 19 projects
+closed    10  without merge
+open      18
+
+merge rate         96/124  77%
+merged, no rework  68/96   71%
+cohort: opened 14+ days ago (UTC dates)
+
+today    +0 opened  +1 merged  +0 closed
+7 days   +0 opened  +4 merged  +0 closed
+```
+
+Printed by `bin/factory metrics card` from the public snapshot named in its second line. The figures are redrawn each time the site is published; this block is rewritten when the profile is synced. Nothing on this page runs live.
+
+<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-25 to 2026-11-21, Asia/Singapore dates: 129 pull requests opened, 101 merged and 10 closed without merge. Each event is dated by when it happened."></picture></a>
+
+**Active contributor to** [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18 merged, 7th of 332 contributors) · [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14, 38th of 416) · [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13, 15th of 205) · [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (10, 36th of 260) · [React Hook Form resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (8, 5th of 76) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6, 12th of 286). Ranks are by commits in GitHub's contributor list on 2026-11-09.
+
+**Selected pull requests**
+
+- [rollup#6630](https://github.com/rollup/rollup/pull/6630): dynamic imports of a directory's index file name their chunk after the directory, closing an issue open since February 2023
+- [effect#10370](https://github.com/Effect-TS/effect/pull/10370): OpenRouter streaming ignores empty content deltas instead of emitting empty text parts
+- [resolvers#893](https://github.com/react-hook-form/resolvers/pull/893): Valibot object-level checks, such as two passwords matching, now reach the form as an error
+- [assistant-ui#10291](https://github.com/assistant-ui/assistant-ui/pull/10291): OpenCode tool output and edit diffs reach UI renderers through the artifact field
+- [context7#3530](https://github.com/upstash/context7/pull/3530): an empty library search keeps its filter notice, so an agent can see why the list is empty
+- [knip#2228](https://github.com/webpro-nl/knip/pull/2228): Knip reads CSpell configuration from the `cspell` key in package.json
+
+[The factory](https://clean99.github.io/software-factory/) · [Source](https://github.com/clean99/software-factory) · [Status board](https://clean99.github.io/software-factory/board.html) · [Metric definitions](https://github.com/clean99/software-factory/blob/HEAD/docs/metrics.md)
 <!-- factory:portfolio:end -->
 
 ### Hi, I'm Clean
@@ -41,6 +73,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [Mantine](https://github.com/mantinedev/mantine/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6): color functions keep zero alpha in `hsla` and parse four-digit `#RGBA`; leading-decimal values such as `.5rem` stay CSS lengths instead of theme sizes; `use-hash` keeps its state in sync with the URL; hotkeys accept [physical letter codes such as `KeyK`](https://github.com/mantinedev/mantine/pull/9381); [Home and End activate tabs](https://github.com/mantinedev/mantine/pull/9382), not just focus them
 - [Starlight](https://github.com/withastro/starlight/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (2): the sidebar autogenerates from the docs root; localized sites keep a directory named `constructor` in fallback pages, the language picker and alternate links
 - [UnoCSS](https://github.com/unocss/unocss/pull/5400): preset-wind4 containment utilities
+- [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing/pull/103): lists delivery-verifier among mutation-testing tools
 <!-- factory:merged:end -->
 
 - Earlier: [Ant Design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (test suite migration to Testing Library), [screenshot-to-code](https://github.com/abi/screenshot-to-code/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (stop button, live code editing, image-comparison debugging), [LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS/pull/1614)
