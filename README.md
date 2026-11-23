@@ -5,26 +5,26 @@
 
 ```text
 software-factory
-snapshot 2026-11-22, Asia/Singapore date
+snapshot 2026-11-23, Asia/Singapore date
 
-opened   129  since 2026-10-24
-merged   101  in 19 projects
+opened   136  since 2026-10-24
+merged   101  in 20 projects
 closed    10  without merge
-open      18
+open      25
 
 merge rate         97/125  78%
 merged, no rework  69/97   71%
 cohort: opened 14+ days ago (UTC dates)
 
-today    +0 opened  +0 merged  +0 closed
-7 days   +0 opened  +2 merged  +0 closed
+today    +6 opened  +0 merged  +0 closed
+7 days   +7 opened  +2 merged  +0 closed
 ```
 
 Printed by `bin/factory metrics card` from the public snapshot named in its second line. The figures are redrawn each time the site is published; this block is rewritten when the profile is synced. Nothing on this page runs live.
 
-<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-26 to 2026-11-22, Asia/Singapore dates: 116 pull requests opened, 101 merged and 8 closed without merge. Each event is dated by when it happened."></picture></a>
+<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-27 to 2026-11-23, Asia/Singapore dates: 113 pull requests opened, 96 merged and 8 closed without merge. Each event is dated by when it happened."></picture></a>
 
-**Active contributor to** [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18 merged, 7th of 332 contributors) · [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14, 38th of 416) · [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13, 15th of 205) · [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (10, 36th of 260) · [React Hook Form resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (8, 5th of 76) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6, 12th of 286). Ranks are by commits in GitHub's contributor list on 2026-11-09.
+**Active contributor to** [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18 merged, 7th of 344 contributors) · [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14, 28th of 428) · [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13, 16th of 220) · [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (10, 36th of 267) · [React Hook Form resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (8, 5th of 77) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6, 13th of 293). Ranks are by commits in GitHub's contributor list on 2026-11-22.
 
 **Selected pull requests**
 
@@ -74,6 +74,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [Starlight](https://github.com/withastro/starlight/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (2): the sidebar autogenerates from the docs root; localized sites keep a directory named `constructor` in fallback pages, the language picker and alternate links
 - [UnoCSS](https://github.com/unocss/unocss/pull/5400): preset-wind4 containment utilities
 - [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing/pull/103): lists delivery-verifier among mutation-testing tools
+- [NestJS](https://github.com/nestjs/nest/pull/18655): the native Node HTTP adapter adds the default UTF-8 charset to text and JSON replies whose `Content-Type` was set directly on the response, matching `send()` and `json()`
 <!-- factory:merged:end -->
 
 - Earlier: [Ant Design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (test suite migration to Testing Library), [screenshot-to-code](https://github.com/abi/screenshot-to-code/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (stop button, live code editing, image-comparison debugging), [LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS/pull/1614)
