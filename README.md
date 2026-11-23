@@ -5,26 +5,26 @@
 
 ```text
 software-factory
-snapshot 2026-11-23, Asia/Singapore date
+snapshot 2026-11-24, Asia/Singapore date
 
-opened   136  since 2026-10-24
-merged   101  in 20 projects
+opened   144  since 2026-10-24
+merged   103  in 20 projects
 closed    10  without merge
-open      25
+open      31
 
-merge rate         97/125  78%
-merged, no rework  69/97   71%
+merge rate         98/125  78%
+merged, no rework  70/98   71%
 cohort: opened 14+ days ago (UTC dates)
 
-today    +6 opened  +0 merged  +0 closed
-7 days   +7 opened  +2 merged  +0 closed
+today    +3 opened  +1 merged  +0 closed
+7 days   +15 opened  +3 merged  +0 closed
 ```
 
 Printed by `bin/factory metrics card` from the public snapshot named in its second line. The figures are redrawn each time the site is published; this block is rewritten when the profile is synced. Nothing on this page runs live.
 
-<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-27 to 2026-11-23, Asia/Singapore dates: 113 pull requests opened, 96 merged and 8 closed without merge. Each event is dated by when it happened."></picture></a>
+<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-28 to 2026-11-24, Asia/Singapore dates: 111 pull requests opened, 92 merged and 8 closed without merge. Each event is dated by when it happened."></picture></a>
 
-**Active contributor to** [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18 merged, 7th of 344 contributors) · [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14, 28th of 428) · [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13, 16th of 220) · [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (10, 36th of 267) · [React Hook Form resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (8, 5th of 77) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6, 13th of 293). Ranks are by commits in GitHub's contributor list on 2026-11-22.
+**Active contributor to** [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18 merged, 7th of 344 contributors) · [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14, 28th of 428) · [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13, 16th of 220) · [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (11, 36th of 267) · [React Hook Form resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (8, 5th of 77) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6, 13th of 293). Ranks are by commits in GitHub's contributor list on 2026-11-22.
 
 **Selected pull requests**
 
@@ -54,7 +54,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 **Merged upstream: AI agent UIs and SDKs**
 
 - [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13): runtime adapters for the AI SDK, AG-UI, LangChain, LangGraph, Google ADK, OpenCode and Pi keep what the agent produced: uploaded filenames, files and artifacts in tool results, images and files returned by Google ADK tools, documents cited by AI SDK streams, tool state metadata, provider metadata and file handles, stable part identities; LangGraph shows OpenAI reasoning once
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (10): LLM tracing and evals clients decode Anthropic and AI SDK tool inputs, keep `strict` response schemas, `extra_body`, Anthropic system instructions, fields beside `anyOf` schemas, evaluator `metadata`, failed task span status and JSON-string span filters; prompt variables keep literal `$$` and `$&`; the dataset view refreshes its example count
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (11): LLM tracing and evals clients decode Anthropic and AI SDK tool inputs, keep `strict` response schemas, Anthropic `extra_body`, Anthropic system instructions, fields beside `anyOf` schemas, evaluator `metadata`, failed task span status and JSON-string span filters; prompt `extra_body` fields go out as top-level SDK parameters; prompt variables keep literal `$$` and `$&`; the dataset view refreshes its example count
 - [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14): `@effect/ai` accepts [Bash and text-editor calls](https://github.com/Effect-TS/effect/pull/10552) from `CodeExecution_20250825`, replays Anthropic web fetch and code execution results as server tool results, accepts web fetch documents without citations, citations on inline documents without a file id and code execution containers without skills, sends OpenAI shell tool results in the expected shape, accepts `null` `service_tier` and `tool_calls` from OpenAI-compatible servers, ignores empty streamed content deltas from OpenRouter and reports OpenRouter and OpenAI-compatible refusals as a `content-filter` finish with the explanation in metadata instead of an empty `stop`; `Stream.groupAdjacentBy` emits buffered groups before an upstream failure; `DateTime` rounding keeps the offset inside a repeated DST hour; `Iterable.unfold` and `filterMapWhile` stay exhausted
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6): agents keep images after prompt-based tool calls and reject failed Responses API streams; compressed chat history keeps images and provider formatting; KoboldCPP agents honour max response tokens; GitHub re-sync encodes file paths
 - [Vercel AI SDK](https://github.com/vercel/ai/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (3): provider adapters accept what providers actually send: Cohere documents as base64 or data URLs and `null` tool arguments while streaming, inline text files in OpenAI-compatible requests
