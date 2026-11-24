@@ -7,24 +7,24 @@
 software-factory
 snapshot 2026-11-24, Asia/Singapore date
 
-opened   144  since 2026-10-24
-merged   103  in 21 projects
+opened   164  since 2026-10-24
+merged   106  in 21 projects
 closed    10  without merge
-open      31
+open      48
 
-merge rate         98/125  78%
-merged, no rework  70/98   71%
+merge rate         99/126  79%
+merged, no rework  71/99   72%
 cohort: opened 14+ days ago (UTC dates)
 
-today    +3 opened  +1 merged  +0 closed
-7 days   +15 opened  +3 merged  +0 closed
+today    +23 opened  +4 merged  +0 closed
+7 days   +35 opened  +6 merged  +0 closed
 ```
 
 Printed by `bin/factory metrics card` from the public snapshot named in its second line. The figures are redrawn each time the site is published; this block is rewritten when the profile is synced. Nothing on this page runs live.
 
-<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-28 to 2026-11-24, Asia/Singapore dates: 111 pull requests opened, 92 merged and 8 closed without merge. Each event is dated by when it happened."></picture></a>
+<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-28 to 2026-11-24, Asia/Singapore dates: 131 pull requests opened, 95 merged and 8 closed without merge. Each event is dated by when it happened."></picture></a>
 
-**Active contributor to** [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18 merged, 7th of 344 contributors) · [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14, 28th of 428) · [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13, 16th of 220) · [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (11, 36th of 267) · [React Hook Form resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (8, 5th of 77) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6, 13th of 293). Ranks are by commits in GitHub's contributor list on 2026-11-22.
+**Active contributor to** [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18 merged, 7th of 344 contributors) · [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14, 28th of 428) · [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13, 16th of 220) · [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (11, 36th of 267) · [React Hook Form resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (9, 5th of 77) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6, 13th of 293). Ranks are by commits in GitHub's contributor list on 2026-11-22.
 
 **Selected pull requests**
 
@@ -63,7 +63,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 **Merged upstream: frontend and tooling**
 
 - [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18): new Lingui, kysely-codegen, PurgeCSS, Web Test Runner and AWS CDK plugins, the last one also reading an existing `--app` directory as a cloud assembly; Babel and Stylelint configs are followed through `extends`; Babel, CSpell, SVGR, Relay, SWC, Storybook, Eleventy and npm-package-json-lint plugins read every config location and format their tools support; WebdriverIO runners, services and community reporters are no longer reported unused
-- [React Hook Form](https://github.com/react-hook-form/react-hook-form/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (4) and [resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (8): `trigger` keeps nested field-array root errors and touches nested fields with `shouldTouch`; a Controller reads the current `shouldUnregister` on unmount; empty-string checkbox options; the io-ts and Effect resolvers honour `raw`; TypeBox and fluentvalidation-ts error paths; Valibot and arktype object-level checks such as matching passwords now block submission, including [path-less issues through typeschema](https://github.com/react-hook-form/resolvers/pull/898); `ajv-formats` v3 installs without peer conflicts
+- [React Hook Form](https://github.com/react-hook-form/react-hook-form/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (4) and [resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (9): `trigger` keeps nested field-array root errors and touches nested fields with `shouldTouch`; a Controller reads the current `shouldUnregister` on unmount; empty-string checkbox options; the io-ts and Effect resolvers honour `raw`; TypeBox and fluentvalidation-ts error paths; Valibot and arktype object-level checks such as matching passwords now block submission, including [path-less issues through typeschema](https://github.com/react-hook-form/resolvers/pull/898); `ajv-formats` v3 and [fluentvalidation-ts 4 and 5](https://github.com/react-hook-form/resolvers/pull/903) install without peer conflicts
 - [TanStack Virtual](https://github.com/TanStack/virtual/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (3): Svelte and Vue adapters keep options and callbacks across updates and detach observers when the scroll element goes away
 - [Rollup](https://github.com/rollup/rollup/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (4): keep line terminators in module ids; debug ID comments count toward chunk hashes, so a cached chunk is never served under a new build's file name; dynamic chunks of `index` files are named after their directory instead of a row of `index-<hash>.js`; string import and export names starting with `*` are kept instead of turning into namespace imports, being dropped or crashing the build
 - [SvelteKit](https://github.com/sveltejs/kit/pull/17590): use the UTF-8 byte length when reading inline assets
