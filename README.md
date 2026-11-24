@@ -8,7 +8,7 @@ software-factory
 snapshot 2026-11-24, Asia/Singapore date
 
 opened   144  since 2026-10-24
-merged   103  in 20 projects
+merged   103  in 21 projects
 closed    10  without merge
 open      31
 
@@ -75,6 +75,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [UnoCSS](https://github.com/unocss/unocss/pull/5400): preset-wind4 containment utilities
 - [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing/pull/103): lists delivery-verifier among mutation-testing tools
 - [NestJS](https://github.com/nestjs/nest/pull/18655): the native Node HTTP adapter adds the default UTF-8 charset to text and JSON replies whose `Content-Type` was set directly on the response, matching `send()` and `json()`
+- [rc-select](https://github.com/react-component/select/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (2): pressing ArrowUp with no active option starts at the last option, and canceling a delayed close releases the option lock so the next selection is not ignored
 <!-- factory:merged:end -->
 
 - Earlier: [Ant Design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (test suite migration to Testing Library), [screenshot-to-code](https://github.com/abi/screenshot-to-code/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (stop button, live code editing, image-comparison debugging), [LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS/pull/1614)
