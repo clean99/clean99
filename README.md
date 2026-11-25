@@ -5,24 +5,24 @@
 
 ```text
 software-factory
-snapshot 2026-11-24, Asia/Singapore date
+snapshot 2026-11-26, Asia/Singapore date
 
-opened   164  since 2026-10-24
-merged   106  in 21 projects
+opened   188  since 2026-10-24
+merged   107  in 22 projects
 closed    10  without merge
-open      48
+open      71
 
-merge rate         99/126  79%
-merged, no rework  71/99   72%
+merge rate         101/128 79%
+merged, no rework  73/101  72%
 cohort: opened 14+ days ago (UTC dates)
 
-today    +23 opened  +4 merged  +0 closed
-7 days   +35 opened  +6 merged  +0 closed
+today    +5 opened  +0 merged  +0 closed
+7 days   +59 opened  +7 merged  +0 closed
 ```
 
 Printed by `bin/factory metrics card` from the public snapshot named in its second line. The figures are redrawn each time the site is published; this block is rewritten when the profile is synced. Nothing on this page runs live.
 
-<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-28 to 2026-11-24, Asia/Singapore dates: 131 pull requests opened, 95 merged and 8 closed without merge. Each event is dated by when it happened."></picture></a>
+<a href="https://clean99.github.io/software-factory/board.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://clean99.github.io/software-factory/activity-dark.svg"><img src="https://clean99.github.io/software-factory/activity-light.svg" width="880" alt="Daily activity from 2026-10-30 to 2026-11-26, Asia/Singapore dates: 145 pull requests opened, 82 merged and 6 closed without merge. Each event is dated by when it happened."></picture></a>
 
 **Active contributor to** [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (18 merged, 7th of 344 contributors) · [Effect](https://github.com/Effect-TS/effect/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (14, 28th of 428) · [assistant-ui](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (13, 16th of 220) · [Arize Phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (11, 36th of 267) · [React Hook Form resolvers](https://github.com/react-hook-form/resolvers/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (9, 5th of 77) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (6, 13th of 293). Ranks are by commits in GitHub's contributor list on 2026-11-22.
 
@@ -76,6 +76,7 @@ Frontend and full-stack engineer working on AI agents: how they get context, how
 - [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing/pull/103): lists delivery-verifier among mutation-testing tools
 - [NestJS](https://github.com/nestjs/nest/pull/18655): the native Node HTTP adapter adds the default UTF-8 charset to text and JSON replies whose `Content-Type` was set directly on the response, matching `send()` and `json()`
 - [rc-select](https://github.com/react-component/select/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (2): pressing ArrowUp with no active option starts at the last option, and canceling a delayed close releases the option lock so the next selection is not ignored
+- [Vue I18n](https://github.com/intlify/vue-i18n/pull/2824): a `computed` or `watch` over `t()` or `te()` now updates when `mergeLocaleMessage()` adds a nested key that was missing
 <!-- factory:merged:end -->
 
 - Earlier: [Ant Design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (test suite migration to Testing Library), [screenshot-to-code](https://github.com/abi/screenshot-to-code/pulls?q=is%3Apr+author%3Aclean99+is%3Amerged) (stop button, live code editing, image-comparison debugging), [LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS/pull/1614)
