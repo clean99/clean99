@@ -12,8 +12,8 @@ merged   107  in 22 projects
 closed    10  without merge
 open      71
 
-merge rate         101/128 79%
-merged, no rework  73/101  72%
+merge rate         102/129 79%
+merged, no rework  74/102  72%
 cohort: opened 14+ days ago (UTC dates)
 
 today    +5 opened  +0 merged  +0 closed
